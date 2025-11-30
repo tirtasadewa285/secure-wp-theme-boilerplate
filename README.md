@@ -37,23 +37,6 @@ Boilerplate ini bukan sekadar file kosong. Di dalamnya sudah tertanam fungsi kea
 -   ✅ **Disable XML-RPC:** Menutup celah serangan DDoS dan Brute Force klasik.
 -   ✅ **Version Hiding:** Menyembunyikan versi WordPress dari source code agar tidak terdeteksi bot scanner.
 -   ✅ **Login Error Obfuscation:** Menyamarkan pesan error login agar hacker tidak bisa menebak username valid.
--   ✅ **Direct Access Prevention:** Semua file PHP diproteksi dari akses langsung tanpa melewati WordPress.
-
----
-
-## 🛠 Instalasi & Penggunaan
-
-### 1. Download / Clone
-Masuk ke folder instalasi WordPress Anda:
-```bash
-cd wp-content/themes/
-git clone [https://github.com/USERNAME/secure-wp-theme-boilerplate.git](https://github.com/USERNAME/secure-wp-theme-boilerplate.git) my-secure-theme
-
-
--   ✅ **Secure HTTP Headers:** Otomatis menambahkan header anti-clickjacking (`X-Frame-Options`) dan XSS protection.
--   ✅ **Disable XML-RPC:** Menutup celah serangan DDoS dan Brute Force klasik.
--   ✅ **Version Hiding:** Menyembunyikan versi WordPress dari source code agar tidak terdeteksi bot scanner.
--   ✅ **Login Error Obfuscation:** Menyamarkan pesan error login agar hacker tidak bisa menebak username valid.
 -   ✅ **SVG Sanitization:** (Optional) Mengizinkan upload SVG dengan aman tanpa risiko eksekusi script.
 -   ✅ **Direct Access Prevention:** Semua file PHP diproteksi dari akses langsung.
 
@@ -62,11 +45,11 @@ git clone [https://github.com/USERNAME/secure-wp-theme-boilerplate.git](https://
 ## 🛠 Instalasi & Penggunaan
 
 ### 1. Download / Clone
-Masuk ke folder instalasi WordPress Anda:
+Masuk ke folder instalasi WordPress Anda melalui terminal:
+
 ```bash
 cd wp-content/themes/
-git clone [https://github.com/USERNAME/secure-wp-theme-boilerplate.git](https://github.com/USERNAME/secure-wp-theme-boilerplate.git) my-secure-theme
-````
+git clone [https://github.com/tirtasadewa285/secure-wp-theme-boilerplate.git](https://github.com/tirtasadewa285/secure-wp-theme-boilerplate.git) my-secure-theme
 
 ### 2\. Konfigurasi Awal
 
